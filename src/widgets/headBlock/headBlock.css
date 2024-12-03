@@ -1,0 +1,10 @@
+.head-container {
+    background-image: url("../../shared/assets/images/headingImage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

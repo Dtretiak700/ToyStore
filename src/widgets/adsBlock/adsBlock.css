@@ -1,0 +1,65 @@
+.ads-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 120px;
+}
+
+.ads-title {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 153px;
+    margin-bottom: 93px;
+}
+
+.description-title {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    color: #111111;
+    margin-left: 15px;
+}
+
+.green-line {
+    width: 70px;
+    height: 2px;
+    margin-left: 15px;
+    background-color: #A5C926;
+}
+
+.ads-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-left: 15px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.description-img-container {
+    background-image: url("../../shared/assets/images/kids-ads.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 567px;
+    height: 422px;
+    border-radius: 16px;
+}

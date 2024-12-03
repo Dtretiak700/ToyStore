@@ -1,0 +1,81 @@
+.toy-card-container {
+    width: 270px;
+    height: 358px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 135px;
+
+    p {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #111111;
+    }
+
+    img {
+        width: 182px;
+        height: 182px;
+    }
+}
+
+.toy-price-block {
+    background-color: #A5C926;
+    width: 92px;
+    height: 24px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
+
+.count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: none;
+        background-color: #A5C926;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        margin: 10px 5px;
+    }
+}
+
+.addToCart-btn {
+    cursor: pointer;
+    border-radius: 24px;
+    border: none;
+    background-color: #A5C926;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+}

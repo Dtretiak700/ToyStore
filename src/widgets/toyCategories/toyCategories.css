@@ -1,0 +1,24 @@
+.toy-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.toy-cat-container {
+    width: 1200px;
+}
+
+h4 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 15px;
+    color: #111111;
+    margin-bottom: 74px;
+}
+
+.toys-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}

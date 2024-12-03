@@ -1,0 +1,18 @@
+.main-cart-container {
+    background-image: url("../../shared/assets/images/cart-backgr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-info-place {
+    width: 60%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border: 7px solid #A5C926;
+    padding: 20px;
+}

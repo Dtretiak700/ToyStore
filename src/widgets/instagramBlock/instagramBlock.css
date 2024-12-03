@@ -1,0 +1,25 @@
+.instagram-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-block {
+    width: 1200px;
+    margin-top: 120px;
+}
+
+.instagram-title {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.pictures-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 245px;
+}

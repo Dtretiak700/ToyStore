@@ -1,0 +1,64 @@
+.container {
+    height: 104px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;
+}
+
+.green-container {
+    height: 32px;
+    background-color: #A5C926;
+}
+
+.white-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+}
+
+.cart-amount {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A5C926;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+img {
+    padding: 0 10px;
+}
+
+.title {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #333333;
+    line-height: 32px;
+}
+
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #111111;
+    padding: 0 20px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,51 @@
+.head-toy-container {
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-head-toy {
+    width: 1200px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toy-block {
+    width: 570px;
+    height: 188px;
+    border-radius: 16px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+}
+
+.yellow-toy-block {
+    background-color: #FFC12C;
+
+    img {
+        margin: 0 29px 76px 15px;
+    }
+}
+
+.red-toy-block {
+    background-color: #FB416B;
+
+    img {
+        margin: 0 21px 70px 23px;
+    }
+
+    p {
+        margin-left: 80px;
+    }
+}
