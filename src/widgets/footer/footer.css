@@ -64,3 +64,37 @@
     color: #FFFFFF;
     margin: 32px 15px;
 }
+
+@media all and (max-width: 800px) {
+    .footer-info-block {
+        width: 600px;
+    }
+
+    .title-footer-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-footer-block {
+        width: 300px;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .footer-text {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .footer-sm-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-line {
+        width: 300px;
+    }
+
+    .extra-text-footer {
+        font-size: 7px;
+    }
+}

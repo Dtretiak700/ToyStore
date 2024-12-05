@@ -22,3 +22,19 @@ h4 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
 }
+
+@media all and (max-width: 800px) {
+    .toy-cat-container {
+        width: 300px;
+        padding: 0 30px;
+    }
+
+    .toys-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        gap: 15px; 
+        width: 100%; 
+        padding: 0;
+    }
+}

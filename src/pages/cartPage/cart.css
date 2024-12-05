@@ -3,10 +3,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .cart-info-place {
@@ -14,5 +14,43 @@
     height: 70%;
     background-color: #FFFFFF;
     border: 7px solid #A5C926;
-    padding: 20px;
+    padding: 40px;
+}
+
+.delete-icon {
+    width: 24px;
+    cursor: pointer;
+}
+
+.title-total-price {
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    line-height: 32px;
+    text-align: center;
+}
+
+.info-price {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.price-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #111111;
+    margin: 0 10px;
+}
+
+.price-text-name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    margin: 10px 10px;
 }

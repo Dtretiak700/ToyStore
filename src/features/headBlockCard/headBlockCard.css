@@ -41,3 +41,18 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media all and (max-width: 800px) {
+    .card-container {
+        width: 370px;
+    }
+
+    .big-text {
+        font-size: 20px;
+    }
+
+    .scroll-link {
+        width: 100px;
+        font-size: 10px;
+    }
+}

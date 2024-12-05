@@ -52,3 +52,9 @@ video {
     text-align: center;
     color: #FFFFFF;
 }
+
+@media all and (max-width: 800px) {
+    .text-btn-container {
+        width: 400px;
+    }
+}

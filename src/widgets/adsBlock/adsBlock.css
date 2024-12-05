@@ -63,3 +63,22 @@
     height: 422px;
     border-radius: 16px;
 }
+
+@media all and (max-width: 800px) {
+    .ads-title, .description-title {
+        font-size: 21px;
+    }
+
+    .description-container {
+        width: 300px;
+    }
+
+    .description-img-container {
+        width: 367px;
+        height: 322px;
+    }
+
+    .description-main-container {
+        flex-direction: column;
+    }
+}

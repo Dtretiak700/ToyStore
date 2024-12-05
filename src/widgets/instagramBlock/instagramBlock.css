@@ -23,3 +23,9 @@
     padding: 0 15px;
     margin-bottom: 245px;
 }
+
+@media all and (max-width: 800px) {
+    .instagram-main-container {
+        display: none;
+    }
+}

@@ -37,3 +37,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@media all and (max-width: 800px) {
+    #email {
+        width: 316px;
+    }
+
+    .btn-submit, .btn-reset {
+        width: 91px;
+    }
+}

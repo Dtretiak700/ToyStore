@@ -43,3 +43,24 @@ span {
     color: #A5C926
 }
 
+@media all and (max-width: 800px) {
+    .subscribe-main-container {
+        margin-bottom: 60px;
+    }
+
+    .subscribe-input-container {
+        width: 450px;
+        height: 243px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .text-subscribe {
+        font-size: 20px;
+    }
+
+    .green-subscribe-square {
+        width: 53px;
+        height: 53px;
+    }
+}

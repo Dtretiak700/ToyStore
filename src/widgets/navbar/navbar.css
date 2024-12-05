@@ -62,3 +62,8 @@ img {
     text-decoration: none;
 }
 
+@media all and (max-width: 800px) {
+    .inner-container {
+        width: 300px;
+    }
+}
