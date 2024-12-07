@@ -67,3 +67,24 @@ img {
         width: 300px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .inner-container {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 8px;
+        padding: 0 5px;
+    }
+
+    .cart-amount {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+}

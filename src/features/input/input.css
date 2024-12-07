@@ -47,3 +47,17 @@
         width: 91px;
     }
 }
+
+@media all and (max-width: 500px) {
+    #email {
+        width: 126px;
+        height: 27px;
+    }
+
+    .btn-submit, .btn-reset {
+        width: 66px;
+        height: 32px;
+        border-radius: 17px;
+        font-size: 13px;
+    }
+}

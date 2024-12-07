@@ -79,3 +79,16 @@
     margin-bottom: 10px;
     padding: 4px 10px;
 }
+
+@media all and (max-width: 800px) {
+    .toy-card-container {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .toy-card-container {
+        width: 200px;
+        margin-bottom: 35px;
+    }
+}

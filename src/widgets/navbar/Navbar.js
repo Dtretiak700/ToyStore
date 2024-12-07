@@ -16,7 +16,7 @@ const Navbar = () => {
                         <div className="cart-container">
                             <Link to="/" className="text">Home</Link>
                             <Link to="/cart" className="text">Cart</Link>
-                            <img src ={cartIcon} alt="Cart Icon"/>
+                            <img src={cartIcon} alt="Cart Icon"/>
                             <div className="cart-amount">{totalQuantity}</div>
                         </div>
                     </div>

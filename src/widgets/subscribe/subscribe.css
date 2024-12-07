@@ -64,3 +64,22 @@ span {
         height: 53px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .subscribe-input-container {
+        width: 250px;
+        height: 143px;
+    }
+
+    .green-subscribe-square {
+        display: none;
+    }
+
+    .text-subscribe-block {
+        width: 227px;
+    }
+
+    .text-subscribe {
+        font-size: 15px;
+    }
+}

@@ -98,3 +98,32 @@
         font-size: 7px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .footer-title {
+        font-size: 16px;
+    }
+
+    .menu-footer-block {
+        width: 200px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+
+    .footer-sm-icons {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .footer-line {
+        width: 200px;
+    }
+
+    .extra-text-footer {
+        font-size: 5px;
+    }
+}

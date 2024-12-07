@@ -82,3 +82,24 @@
         flex-direction: column;
     }
 }
+
+@media all and (max-width: 500px) {
+    .ads-title {
+        font-size: 13px;
+        margin-top: 33px;
+        margin-bottom: 23px;
+    }
+
+    .ads-description {
+        font-size: 10px;
+    }
+
+    .description-container {
+        width: 250px;
+    }
+
+    .description-img-container {
+        width: 267px;
+        height: 222px;
+    }
+}

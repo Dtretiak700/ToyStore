@@ -58,3 +58,28 @@ video {
         width: 400px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .text-btn-container {
+        width: 200px;
+        gap: 3px;
+    }
+
+    .about-title {
+        font-size: 16px;
+    }
+
+    .about-text {
+        font-size: 6px;
+    }
+
+    .play-btn {
+        width: 34px;
+        height: 34px;
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+    }
+}

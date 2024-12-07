@@ -78,3 +78,34 @@
         }
     }
 }
+
+@media all and (max-width: 500px) {
+    .inner-head-toy {
+        width: 400px;
+    }
+
+    .toy-block {
+        width: 290px;
+        height: 100px;
+        margin: 15px 0;
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .yellow-toy-block {
+        img {
+            margin: 0 15px 56px 10px;
+        }
+    }
+
+    .red-toy-block {
+        img {
+            margin: 0 15px 40px 13px;
+        }
+    
+        p {
+            margin-left: 30px;
+        }
+    }
+}
