@@ -1,8 +1,7 @@
 import { useSelector } from "react-redux";
-import Footer from "../../widgets/footer/Footer";
-import "./cart.css";
+import { getCartItems, getTotalPrice } from "../../app/redux/slices/cartSlice";
 import CartItem from "./CartItem";
-import { getCartItems, getTotalPrice } from "../../redux/cartSlice";
+import "./cart.css";
 
 const Cart = () => {
     const cartItems = useSelector(getCartItems);
@@ -16,7 +15,6 @@ const Cart = () => {
                     {cartItems.map(cartItem => <CartItem cartItem={cartItem} key={cartItem.id}/>)}
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

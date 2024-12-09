@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ChangeQuantityButtons from "./ChangeQuantityButtons";
 import "./toyCard.css";
-import { addItemToCart } from "../../redux/cartSlice";
+import { addItemToCart } from "../../app/redux/slices/cartSlice";
 import { useDispatch } from "react-redux";
 
 const ToyCard = ({ toy }) => {

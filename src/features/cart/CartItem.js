@@ -1,6 +1,6 @@
 import deleteIcon from "../../shared/assets/images/trash.svg";
 import { useDispatch } from "react-redux";
-import { removeItemFromCart } from "../../redux/cartSlice";
+import { removeItemFromCart } from "../../app/redux/slices/cartSlice";
 import toysData from "../../shared/data/toysData";
 
 const CartItem = ({cartItem}) => {

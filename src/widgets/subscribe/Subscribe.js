@@ -1,6 +1,6 @@
-import Input from "../../features/input/Input";
 import "./subscribe.css";
 import subscribeIcon from "../../shared/assets/images/subscribe.svg";
+import SignIn from "../../features/signIn/SignIn";
 
 const Subscribe = () => {
     return(
@@ -14,7 +14,7 @@ const Subscribe = () => {
                         <br />& get <span>10% discount!</span>
                     </p>
                 </div>
-                <Input />
+                <SignIn />
             </div>
         </div>
     )

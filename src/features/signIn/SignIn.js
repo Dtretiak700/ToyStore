@@ -1,7 +1,7 @@
-import "./input.css";
+import "./signIn.css";
 import { useForm } from '@formspree/react';
 
-const Input = () => {
+const SignIn = () => {
     const [state, handleSubmit, reset] = useForm('xleqapwj');
     if (state.succeeded) {
         return (
@@ -36,4 +36,4 @@ const Input = () => {
     )
 }
 
-export default Input;
+export default SignIn;

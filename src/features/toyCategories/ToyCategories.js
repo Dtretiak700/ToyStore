@@ -1,12 +1,18 @@
 import { Element } from "react-scroll";
-import ToyCard from "../../features/toyCard/ToyCard";
+import ToyCard from "../../entities/toyCard/ToyCard";
 // import stuffedToys from "../../shared/data/stuffedToys";
 // import woodenToys from "../../shared/data/woodenToys";
 import "./toyCategories.css";
-import { useSelector } from "react-redux";
-import { selectStuffedToys, selectWoodenToys } from "../../redux/toysSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { filterCategory, selectStuffedToys, selectWoodenToys } from "../../app/redux/slices/toysSlice";
+import { useEffect } from "react";
+import toysData from "../../shared/data/toysData";
 
 const ToyCategories = () => {
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(filterCategory(toysData))
+    }, [dispatch])
     const stuffedToys = useSelector(selectStuffedToys);
     const woodenToys = useSelector(selectWoodenToys);
     

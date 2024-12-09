@@ -2,7 +2,7 @@ import "./navbar.css";
 import cartIcon from "../../shared/assets/images/Mask.svg";
 import { Link } from "react-router";
 import { useSelector } from "react-redux";
-import { getTotalQuantity } from "../../redux/cartSlice";
+import { getTotalQuantity } from "../../app/redux/slices/cartSlice";
 
 const Navbar = () => {
     const totalQuantity = useSelector(getTotalQuantity);
